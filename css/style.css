@@ -3,10 +3,11 @@ body {
   color: #57595c;
   background-color: #edefec;
   font-size: 16px;
+  padding-top: 20px;
 }
 button {
   text-align: center;
-  width: 100%;
+  width: 30%;
   background: white;
   border: 1px solid #cfcfcf;
   border-radius: 3px;
@@ -44,10 +45,10 @@ span {
 }
 .box {
   width: 100%;
-  margin: 0 15px 20px 15px;
+  margin: 0 0 20px 0;
   background-size: cover;
   background-position: center;
-  height: 20vh;
+  height: 30vh;
   position: relative;
 }
 #box1 {
@@ -67,4 +68,13 @@ span {
 }
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
+}
+
+
+.pageWidth{
+  width: 50%;
+}
+
+.gap {
+  max-width: 1%;
 }
